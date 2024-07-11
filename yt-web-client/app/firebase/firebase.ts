@@ -11,9 +11,9 @@ import {
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
-  authDomain: "yt-clone-3fb75.firebaseapp.com",
-  projectId: "yt-clone-3fb75",
-  appId: "1:1032750545420:web:4ecc92ea6c0ddc3082cc29",
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+  appId: process.env.NEXT_PUBLIC_APP_ID,
 };
 
 // Initialize Firebase
